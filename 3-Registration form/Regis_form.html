@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="icon.png">
+</head>
+<body>
+    <!-- Form container -->
+    <div class="container">
+        <h1>Registration form</h1>
+
+        <form>
+            <div class="text-field">
+                <label for="fname">First name: </label>
+                <input type="text" name="fname" id="stdname">
+                <p id="fname"></p>
+            </div>
+            <div class="text-field">
+                <label for="lname">Last name: </label>
+                <input type="text" name="lname" id="stdlname">
+                <p id="lname"></p>
+            </div>
+            <div class="text-field">
+                <label for="lname">Phone No: </label>
+                <input type="text" name="lname" id="stdno">
+                <p id="mobno"></p>
+            </div>
+            <div class="text-field">
+                <label for="">Email: </label>
+                <input type="email" name="email" id="stdemail">
+                <p id="email"></p>
+            </div>
+            <div class="text-field">
+                <label for="">Password: </label>
+                <input type="password" name="password" id="stdpass">
+                <p id="pass"></p>
+            </div>
+            <div class="text-field">
+                <label for="">Confirm Pass: </label>
+                <input type="password" name="password" id="stdcpass" >
+                <p id="cpass"></p>
+            </div>
+           
+            <div class="btn">
+                 <input type="submit" onclick="return validation()">
+                 <!-- <input type="reset" onclick="reload()"> -->
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
